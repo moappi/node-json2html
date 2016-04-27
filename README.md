@@ -26,7 +26,7 @@ Usage
 
 	var data = [{'male':'Bob','female':'Jane'},{'male':'Rick','female':'Ann'}];
 
-	var transform = {'tag':'div','html':'${male} likes ${female}'};
+	var transform = {"<>":"div","html":"${male} likes ${female}"};
         
 	var html = json2html.transform(data,transform);
 ```
